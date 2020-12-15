@@ -7,12 +7,9 @@ apt update
 
 apt upgrade
 
-Скачиваем git, colorama, requests, python:
+Скачиваем git, python:
+
 pkg install git
-
-pip install colorama
-
-pip install requests
 
 pkg install python
 
@@ -25,6 +22,8 @@ git clone https://github.com/Destroyed901/Destroyer
 cd Destroyer
 
 ls
+
+pip install -r requirements.txt
 
 python Destroyer.py
 
