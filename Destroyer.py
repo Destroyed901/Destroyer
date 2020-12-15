@@ -1,3 +1,5 @@
+import os
+os.system("clear")
 import requests, random, datetime, sys, time, argparse, os
 from colorama import Fore, Back, Style
 
