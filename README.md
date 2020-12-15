@@ -8,7 +8,6 @@ apt update
 apt upgrade
 
 Скачиваем git, colorama, requests, python:
-
 pkg install git
 
 pip install colorama
