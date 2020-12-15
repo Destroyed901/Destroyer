@@ -23,7 +23,9 @@ git clone https://github.com/Destroyed901/Destroyer
 Запуск:
 
 cd Destroyer
+
 ls
+
 python Destroyer.py
 
 
