@@ -15,8 +15,8 @@ ______          _
                                __/ |
                               |___/
 
-                             creators: @Lalalend239, @t0xicrick
-                             telegram channel: @termux901
+             creators: @Lalalend239, @t0xicrick
+             telegram channel: @termux901
 
 """
 
