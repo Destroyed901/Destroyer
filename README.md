@@ -28,3 +28,4 @@ pip install -r requirements.txt
 python Destroyer.py
 
 
+ВНИМАНИЕ! ЗА ВАШИ ДЕЙСТВИЯ МЫ ОТВЕТСТВЕННОСТЬ НЕ НЕСЁМ!
