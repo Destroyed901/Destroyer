@@ -23,7 +23,7 @@ ______          _
 """
 
 print(banner)
-_phone = input('Hello! Number for attack (79xxxxxxxxx)-->> ')
+_phone = input('Введите номер без «+» для атаки:')
 
 if _phone[0] == '+':
 	_phone = _phone[1:]
