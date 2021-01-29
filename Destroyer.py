@@ -12,7 +12,7 @@ ______          _
 |___/ \___||___/\__|_|  \___/ \__, |\___|_|
                                __/ |
                               |___/
-                 telegram channel: @termux901
+                 telegram channel: @termux999
 """, "green")
 
 print(banner)
