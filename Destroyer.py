@@ -14,7 +14,7 @@ ______          _
                               |___/
                  creators: @sherlockh0lms
 		 RICK DAUN
-		 gachi muchi love
+		 gachimuchi love
 """, "green")
 
 print(banner)
