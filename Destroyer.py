@@ -13,6 +13,7 @@ ______          _
                                __/ |
                               |___/
                  creators: @sherlockh0lms
+		 RICK DAUN
 """, "green")
 
 print(banner)
