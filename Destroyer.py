@@ -13,8 +13,7 @@ ______          _
                                __/ |
                               |___/
                  creators: @sherlockh0lms
-		 RICK DAUN
-		 gachimuchi love
+		
 """, "green")
 
 print(banner)
