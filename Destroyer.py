@@ -12,7 +12,7 @@ ______          _
 |___/ \___||___/\__|_|  \___/ \__, |\___|_|
                                __/ |
                               |___/
-                 creators: @sherlockh0lms
+                    channel: https://t.me/eniac_tg
 		
 """, "green")
 
