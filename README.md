@@ -29,4 +29,4 @@ python Destroyer.py
 
 
 ВНИМАНИЕ! ЗА ВАШИ ДЕЙСТВИЯ МЫ ОТВЕТСТВЕННОСТЬ НЕ НЕСЁМ!
-Rick пидор 
+https://t.me/eniac_tg
