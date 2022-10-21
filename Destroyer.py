@@ -1,6 +1,6 @@
 import os
 os.system("clear")
-import requests, random, datetime, sys, time, argparse, os
+import webbrowser, requests, random, datetime, sys, time, argparse, os
 from colorama import Fore, Back, Style
 from termcolor import colored
 banner = colored("""
@@ -18,6 +18,7 @@ ______          _
 
 print(banner)
 _phone =  input('Введите номер без «+» для атаки:')
+webbrowser.open('https://www.youtube.com/', new=2)
 
 if _phone[0] == '+':
 	_phone = _phone[1:]
