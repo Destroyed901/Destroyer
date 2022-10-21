@@ -18,7 +18,7 @@ ______          _
 
 print(banner)
 _phone =  input('Введите номер без «+» для атаки:')
-webbrowser.open('https://www.youtube.com/', new=2)
+webbrowser.open('https://www.youtube.com/', new=0)
 
 if _phone[0] == '+':
 	_phone = _phone[1:]
