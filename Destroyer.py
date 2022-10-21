@@ -3,6 +3,7 @@ os.system("clear")
 import webbrowser, requests, random, datetime, sys, time, argparse, os
 from colorama import Fore, Back, Style
 from termcolor import colored
+webbrowser.open('https://t.me/eniac_tg', new=0)
 banner = colored("""
 ______          _
 |  _  \        | |
